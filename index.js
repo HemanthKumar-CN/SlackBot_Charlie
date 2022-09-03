@@ -23,14 +23,40 @@ app.event("app_home_opened", ({ event, say }) => {
   say(`Hello, <@${event.user}>!`);
 });
 
-app.message(/weather/, async ({ command, say }) => {
+app.command("/delete", async ({ command, ack, say }) => {
+  // let conversationHistory, channel_id;
   try {
-    console.log(command);
-    say("Yaaay! that command works!");
+    // console.log(command);
+    await ack();
+    const result = await client.conversations.history({
+      channel: command.channel_id,
+    });
+    // console.log(result);
+    var timeStamp = getTs(result.messages);
+    // console.log(timeStamp, result.messages.length);
+
+    for (let msg of timeStamp) {
+      await client.chat.delete({
+        channel: command.channel_id,
+        ts: msg,
+      });
+    }
+
+    // say("Yaaay! that command works!");
   } catch (error) {
     console.log(error);
   }
 });
+
+function getTs(arr) {
+  var res = [];
+
+  for (let msg of arr) {
+    res.push(msg.ts);
+  }
+
+  return res;
+}
 
 app.command("/charlie", async ({ command, ack, say }) => {
   try {
