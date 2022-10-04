@@ -31,9 +31,11 @@ Charlie bot will come up with more slash commands and functionalities very much 
 ## Screenshots
 
 - About 
+
 ![Home Page](https://i.ibb.co/QJmc3VM/Screenshot-212.png)
 
 - charlie reply message
+
 ![Home Page](https://i.ibb.co/9pF8JkV/Screenshot-213.png)
 
 ## Technologies
