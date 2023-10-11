@@ -54,7 +54,8 @@ The tech used are:
 ## App Configuration
 - [Visit this Url](https://api.slack.com/apps)
 - Create New app -> From Sractch, Assign a name and workspace
--![Need to define features for you bot - Click on "Add features and functionality"](https://ibb.co/kqFKg70)
+-![Need to define features for you bot - Click on "Add features and functionality"]
+(https://i.ibb.co/yQfJgFm/Screenshot-350.png)
 - Define slash commands
   (https://ibb.co/yQfJgFm)
 - Enable Socket mode -> provide a random token name and generate xapp token
