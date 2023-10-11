@@ -54,7 +54,7 @@ The tech used are:
 ## App Configuration
 - [Visit this Url](https://api.slack.com/apps)
 - Create New app -> From Sractch, Assign a name and workspace
-- Need to define features for you bot - Click on "Add features and functionality"
+- [Need to define features for you bot - Click on "Add features and functionality"]
   (https://ibb.co/kqFKg70)
 - Define slash commands
   (https://ibb.co/yQfJgFm)
