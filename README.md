@@ -51,6 +51,25 @@ The tech used are:
 - cd SlackBot_Charlie
 - nodemon index.js
 
+## App Configuration
+- [Visit this Url](https://api.slack.com/apps)
+- Create New app -> From Sractch, Assign a name and workspace
+- Need to define features for you bot - Click on "Add features and functionality"
+  (https://ibb.co/kqFKg70)
+- Define slash commands
+  (https://ibb.co/yQfJgFm)
+- Enable Socket mode -> provide a random token name and generate xapp token
+  (https://ibb.co/QP6TvZc)
+- On the Event Subscription tab -> Need to subscribe to bot events and Events on behalf of users
+- Select all the events as shown in the image below
+  (https://ibb.co/sVgtqYY)
+  (https://ibb.co/PNFY2Tb)
+- In the App home tab: need to - "Allow users to send Slash commands and messages from the messages tab" checkmark this true and continue
+- Oauth/permissions tab: Define Oauth scopes for both Bot token scopes and user token scopes and hence as per these permissions your token will be generated (select permissions as shown below)
+  (https://ibb.co/SV3PcQQ)
+  (https://ibb.co/JrwV7y4)
+- At the end Install the app to your workspace
+
 ## Approach
 
 - Initially started with a slash command of greeting the user on opening the home tab of bot.
