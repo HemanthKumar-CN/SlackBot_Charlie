@@ -55,10 +55,10 @@ The tech used are:
 - [Visit this Url](https://api.slack.com/apps)
 - Create New app -> From Sractch, Assign a name and workspace
   [Need to define features for you bot - Click on "Add features and functionality"](https://i.ibb.co/yQfJgFm/Screenshot-350.png)
-- [Define slash commands](https://i.ibb.co/yQfJgFm/Screenshot-350.png)
-- [Enable Socket mode -> provide a random token name and generate xapp token](https://i.ibb.co/3p0jmws/Screenshot-351.png)
+- ![Define slash commands](https://i.ibb.co/yQfJgFm/Screenshot-350.png)
+- ![Enable Socket mode -> provide a random token name and generate xapp token](https://i.ibb.co/3p0jmws/Screenshot-351.png)
 - On the Event Subscription tab -> Need to subscribe to bot events and Events on behalf of users
-- [Select all the events as shown in the image below](https://i.ibb.co/71SbKmm/Screenshot-352.png)[2](https://i.ibb.co/KXbGtNQ/Screenshot-353.png)
+- ![Select all the events as shown in the image below](https://i.ibb.co/71SbKmm/Screenshot-352.png)[2](https://i.ibb.co/KXbGtNQ/Screenshot-353.png)
 - In the App home tab: need to - "Allow users to send Slash commands and messages from the messages tab" checkmark this true and continue
 - Oauth/permissions tab: Define Oauth scopes for both Bot token scopes and user token scopes and hence as per these permissions your token will be generated (select permissions as shown below)
   (https://ibb.co/SV3PcQQ)
